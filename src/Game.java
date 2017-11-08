@@ -53,6 +53,7 @@ public class Game
         outside.setExits("south", lab);
         outside.setExits("west", pub);
         outside.addItem(new Item("The Sword of death", 0.2));
+        outside.addItem(new Item("The Sword of life", 0.8));
         
         theater.setExits("west", outside);
         
